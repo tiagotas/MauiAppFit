@@ -9,17 +9,17 @@
     Title="MauiAppFit">
 
     <TabBar>
-        <Tab Title="Nova Atividade" Icon="{OnPlatform Android=exercicio}" Route="CadastroAtividade">
+        <Tab Title="Nova Atividade" Icon="exercicio.png" Route="CadastroAtividade">
             <ShellContent>
                 <Views:CadastroAtividade Title="Cadastro de Atividade" />
             </ShellContent>
         </Tab>
-        <Tab Title="Minhas Atividades" Icon="{OnPlatform Android=meus_exercicios}" Route="MinhasAtividades">
+        <Tab Title="Minhas Atividades" Icon="meus_exercicios.png" Route="MinhasAtividades">
             <ShellContent>
                 <Views:ListaAtividades Title="Minhas Atividades" />
             </ShellContent>
         </Tab>
-        <Tab Title="Sobre" Icon="{OnPlatform Android=sobre}">
+        <Tab Title="Sobre" Icon="sobre.png">
             <ShellContent>
                 <Views:Sobre Title="Sobre o App" />
             </ShellContent>
